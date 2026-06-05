@@ -233,7 +233,6 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border-top: 4px solid var(--primary-color);
-    opacity: 0;
 }
 
 .skill-card:hover {
@@ -300,7 +299,6 @@ body {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    opacity: 0;
     transition: all 0.3s ease;
 }
 
@@ -360,7 +358,6 @@ body {
     color: white;
     font-size: 1.5rem;
     transition: all 0.3s ease;
-    opacity: 0;
 }
 
 .social-icons a:hover {
@@ -468,3 +465,4 @@ body {
         font-size: 1.2rem;
     }
 }
+
