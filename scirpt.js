@@ -27,11 +27,12 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe skill cards and other elements
-document.querySelectorAll('.skill-card, .contact-item, .info-item').forEach(el => {
+// Observe skill cards, contact items, info items and social icons
+document.querySelectorAll('.skill-card, .contact-item, .info-item, .social-icons a').forEach(el => {
     el.style.opacity = '0';
     observer.observe(el);
 });
 
-// Mobile menu toggle (if needed in future)
+// Portfolio website loaded successfully
 console.log('Portfolio website loaded successfully!');
+console.log('Welcome to Uzair Ali Portfolio!');
